@@ -42,17 +42,11 @@ npm run build
 npm start
 ```
 
-### Deploy to Vercel (recommended)
 
-1. Push this repo to GitHub.
-2. Go to [vercel.com](https://vercel.com) and import the repository.
-3. Vercel will detect Next.js and set build command to `next build` and output to `.next`.
-4. Deploy. Your site will be live with a `*.vercel.app` URL.
+### Deploy to Render
 
-### Deploy to Netlify
-
-1. Push to GitHub and connect the repo in Netlify.
-2. Build command: `npm run build`
+1. Push to GitHub and connect the repo in Render.
+2. Build command: `npm run build && npm install`
 3. Publish directory: `.next` (for Next.js static export you’d use `out`; for a standard Next app, use the default and add a Next.js plugin if needed, or use “Next.js on Netlify”).
 4. For a standard Next.js app, use **Netlify’s Next.js runtime** so it runs `next build` and `next start` correctly.
 
