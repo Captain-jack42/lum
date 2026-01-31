@@ -1,15 +1,15 @@
 "use client";
 
-import { Navbar } from "@/components/Navbar";
-import { Hero } from "@/components/Hero";
-import { Features } from "@/components/Features";
-import { StorySection } from "@/components/StorySection";
-import { CTA } from "@/components/CTA";
-import { Contact } from "@/components/Contact";
-import { Footer } from "@/components/Footer";
-import { LoadingScreen } from "@/components/LoadingScreen";
-import { CustomCursor } from "@/components/CustomCursor";
-import { InteractiveBackground } from "@/components/InteractiveBackground";
+import { Navbar } from "../components/Navbar";
+import { Hero } from "../components/Hero";
+import { Features } from "../components/Features";
+import { StorySection } from "../components/StorySection";
+import { CTA } from "../components/CTA";
+import { Contact } from "../components/Contact";
+import { Footer } from "../components/Footer";
+import { LoadingScreen } from "../components/LoadingScreen";
+import { CustomCursor } from "../components/CustomCursor";
+import { InteractiveBackground } from "../components/InteractiveBackground";
 import { useState, useEffect } from "react";
 
 export default function Home() {
