@@ -1,6 +1,9 @@
 # LUMEN — Premium Single-Page Site
 
-A high-end, visually stunning single-page website for the fictional premium brand **LUMEN**. Built for the Nexerve assignment to demonstrate design sense, frontend engineering, and premium UI/UX with motion and interactivity.
+A high-end, visually stunning single-page website for the fictional premium brand **LUMEN**. An experimental showcase project created to explore premium UI/UX patterns, frontend performance, and interactive design principles.
+
+# Live :
+https://lum-uu14.onrender.com/
 
 ## Tech Stack
 
