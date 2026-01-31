@@ -12,7 +12,7 @@ const host = "0.0.0.0";
 app.prepare().then(() => {
   const server = express();
   server.get("/health", (req, res) => res.status(200).send("ok"));
-  server.all("*", (req, res) => handle(req, res));
+  server.all(/(.*)/, (req, res) => handle(req, res));
   server.listen(port, host, (err) => {
     if (err) {
       console.error("Server failed to start:", err);
