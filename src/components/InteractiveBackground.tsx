@@ -22,7 +22,7 @@ export function InteractiveBackground() {
       window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches ?? false;
     const isTouch = "ontouchstart" in window || navigator.maxTouchPoints > 0;
 
-    if (prefersReduced || isTouch) {
+    if (prefersReduced) {
       setUseFallback(true);
       return;
     }
@@ -98,9 +98,8 @@ export function InteractiveBackground() {
     >
       {/* CSS fallback: always-in-motion gradient when Vanta fails or is loading */}
       <div
-        className={`interactive-bg-fallback ${
-          useFallback ? "interactive-bg-fallback--active" : ""
-        }`}
+        className={`interactive-bg-fallback ${useFallback ? "interactive-bg-fallback--active" : ""
+          }`}
       />
     </div>
   );
